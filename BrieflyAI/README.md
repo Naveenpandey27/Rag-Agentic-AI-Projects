@@ -14,8 +14,6 @@ A Retrieval-Augmented Generation (RAG) and Agentic AI demo built with modern LLM
   - [Installation](#installation)  
   - [Usage](#usage)  
 - [Project Structure](#project-structure)  
-- [Configuration](#configuration)  
-- [Examples](#examples)  
 - [Contributing](#contributing)  
 ---
 

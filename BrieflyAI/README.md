@@ -16,10 +16,7 @@ A Retrieval-Augmented Generation (RAG) and Agentic AI demo built with modern LLM
 - [Project Structure](#project-structure)  
 - [Configuration](#configuration)  
 - [Examples](#examples)  
-- [Troubleshooting](#troubleshooting)  
 - [Contributing](#contributing)  
-- [License](#license)
-
 ---
 
 ## 🎯 Introduction
@@ -101,82 +98,16 @@ BrieflyAI/
 ├── requirements.txt
 └── config.yaml           # Configuration file (API keys, model settings)
 ```
-
----
-
-## 🛠️ Configuration
-
-Edit `config.yaml` or set environment variables:
-
-```yaml
-llm_model: "gpt-4"
-vector_db: "chroma"
-search_api: "TAVILY"
-max_tokens: 512
-```
+`
 
 Set API keys via env vars:
 
 ```bash
-export OPENAI_API_KEY=...
-export TAVILY_API_KEY=...
+export GROQ_API_KEY=...
+export BRIGHTDATA_API_KEY = ...
 ```
 
----
-
-## 🧪 Examples
-
-Use the CLI or API:
-
-```bash
-$ python run_briefly.py --query "Summarize the benefits of RAG"
-# → "RAG combines retrieval and generation to produce context-aware summaries..."
-
-# Or via HTTP:
-curl -X POST http://localhost:8000/summarize -d '{"query":"..."}'
-```
-
----
-
-## ⚠️ Troubleshooting
-
-* **LLM errors**: Ensure your API key is valid and quotas are not exceeded.
-* **Retrieval issues**: Check vector DB indexing with `python embeddings.py --reindex`.
-* **Search failures**: Verify your search API key and internet connectivity.
-
----
-
-## 🤝 Contributing
-
-Welcome! Please:
-
-1. Fork the repo
-2. Create a new branch
-3. Add features or fix bugs
-4. Submit a pull request
-
-Label your PRs and issues clearly—use `good first issue` if you're starting out ([github.com][1], [github.com][2], [github.com][3], [github.com][4], [github.com][5], [github.com][6]).
-
----
-
-## ⚖️ License
-
-Distributed under the **Apache 2.0 License**. See `LICENSE` for details.
-
----
 
 ## 🙌 Acknowledgements
 
-* Idea & base structure from RAG/Agentic AI collection by Naveenpandey27 ([github.com][3], [github.com][5])
-* Inspired by NVIDIA Agentic RAG demo ([github.com][3])
-
----
-
-**Enjoy using BrieflyAI!** Let me know if you'd like tweaks—happy to refine it further.
-
-[1]: https://github.com/athina-ai/rag-cookbooks/blob/main/agentic_rag_techniques/basic_agentic_rag.ipynb?utm_source=chatgpt.com "rag-cookbooks/agentic_rag_techniques/basic_agentic_rag.ipynb ... - GitHub"
-[2]: https://github.com/topics/retrieval-augmented-generation?utm_source=chatgpt.com "retrieval-augmented-generation · GitHub Topics · GitHub"
-[3]: https://github.com/NVIDIA/workbench-example-agentic-rag?utm_source=chatgpt.com "NVIDIA/workbench-example-agentic-rag - GitHub"
-[4]: https://github.com/AndrewNgo-ini/agentic_rag?utm_source=chatgpt.com "GitHub - AndrewNgo-ini/agentic_rag: A fully custom chatbot built with ..."
-[5]: https://github.com/Naveenpandey27/Rag-Agentic-AI-Projects/labels?utm_source=chatgpt.com "Naveenpandey27/Rag-Agentic-AI-Projects - GitHub"
-[6]: https://github.com/abdulsaboorbasit/Agentic-AI-Projects?utm_source=chatgpt.com "abdulsaboorbasit/Agentic-AI-Projects - GitHub"
+* Idea & base structure from RAG/Agentic AI collection by **Naveenpandey27**

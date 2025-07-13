@@ -1,8 +1,4 @@
-Here’s a polished, comprehensive **README.md** draft for your **BrieflyAI** project within the **Rag-Agentic-AI-Projects** repo:
 
----
-
-````markdown
 # 🧠 BrieflyAI
 
 A Retrieval-Augmented Generation (RAG) and Agentic AI demo built with modern LLM frameworks, designed to fetch context from documents/web and generate concise summaries.

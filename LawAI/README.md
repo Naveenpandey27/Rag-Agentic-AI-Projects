@@ -6,6 +6,8 @@ A Retrieval‑Augmented Generation (RAG) and Agentic AI project geared toward le
 
 LawAI uses modern LLMs with RAG techniques to ingest legal documents, build a vector store, and facilitate efficient case‑law retrieval and question answering.
 
+![Uploading ll.png…]()
+
 ## 🔧 Features
 
 * **Document loader**: Parses legal case files (e.g., PDF, plain text).

@@ -1,7 +1,12 @@
-<img width="1842" height="767" alt="brrr" src="https://github.com/user-attachments/assets/1f190640-5ef2-4247-84dc-7f5f95faacfe" />
-# 🧠 BrieflyAI
+🧠 BrieflyAI
 
 A Retrieval-Augmented Generation (RAG) and Agentic AI demo built with modern LLM frameworks, designed to fetch context from documents/web and generate concise summaries.
+
+
+## Demo
+
+![Uploading image.png…]()
+
 
 ---
 

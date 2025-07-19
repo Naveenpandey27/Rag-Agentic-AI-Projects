@@ -5,8 +5,7 @@ A Retrieval-Augmented Generation (RAG) and Agentic AI demo built with modern LLM
 
 ## Demo
 
-![Uploading image.png…]()
-
+<img width="1842" height="767" alt="brrr" src="https://github.com/user-attachments/assets/7340e96f-5c4e-4a27-8171-9ac0ca0ec4d7" />
 
 ---
 

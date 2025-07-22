@@ -1,6 +1,6 @@
 ## 🧠 BrieflyAI
 
-A Retrieval-Augmented Generation (RAG) and Agentic AI demo built with modern LLM frameworks, designed to fetch context from documents/web and generate concise summaries.
+A Retrieval-Augmented Generation (RAG) and Agentic AI demo built with modern LLM frameworks & MCP, designed to fetch context from web and generate concise summaries.
 
 
 ## Demo
